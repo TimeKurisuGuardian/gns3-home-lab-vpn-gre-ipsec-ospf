@@ -1,14 +1,12 @@
-# Hybrid-Site-to-Site-VPN---GRE-over-IPsec-OSPF-Physical-Virtual-GNS3-
+# Hybrid Site-to-Site VPN: GRE over IPsec + OSPF
 **Стек:** Cisco IOS (Physical + Virtual GNS3)
 
 В этой лабораторной работе реализован защищенный туннель между физическим офисом (Cisco 3825) и виртуальным филиалом (GNS3). Поверх туннеля запущен протокол динамической маршрутизации OSPF для автоматического обмена маршрутами локальных сетей.
 
 <img width="1280" height="960" alt="изображение" src="https://github.com/user-attachments/assets/11fda738-83d1-4311-9139-49b36ded8769" />
-<img width="1280" height="960" alt="изображение" src="https://github.com/user-attachments/assets/11fda738-83d1-4311-9139-49b36ded8769" />
 
 _Рис 1. Физический стенд (Office 1)_
 
-<img width="1030" height="703" alt="изображение" src="https://github.com/user-attachments/assets/9bb9d30f-df7b-4002-883a-1c964ea21b2f" />
 <img width="1030" height="703" alt="изображение" src="https://github.com/user-attachments/assets/9bb9d30f-df7b-4002-883a-1c964ea21b2f" />
 
 _Рис 2. Виртуальная часть топологии (Office 2)_
